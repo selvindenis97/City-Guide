@@ -1,0 +1,14 @@
+<div *ngIf="city">
+  <h2>{{city.name}} details!</h2>
+  <div>
+    <label>id: </label>{{city.id}}</div>
+  <div>
+    <label>name: </label>
+    <input [(ngModel)]="city.name" placeholder="name" />
+  </div>
+
+  <button (click)="save()">Save</button>
+
+  
+  <button (click)="goBack()">Back</button>
+</div>

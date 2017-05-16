@@ -1,0 +1,252 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Sarajevo"
+    },
+    {
+      "id": 2,
+      "name": "Mostar"
+    },
+    {
+      "id": 3,
+      "name": "Travnik"
+    },
+    {
+      "id": 4,
+      "name": "Jajce"
+    },
+    {
+      "id": 5,
+      "name": "Zenica"
+    },
+    {
+      "id": 6,
+      "name": "Bugojno"
+    },
+    {
+      "id": 7,
+      "name": "Donji Vakuf"
+    },
+    {
+      "id": 8,
+      "name": "Gornji Vakuf"
+    },
+    {
+      "id": 9,
+      "name": "Biha�"
+    },
+    {
+      "id": 10,
+      "name": "Br�ko"
+    },
+    {
+      "id": 11,
+      "name": "Banja Luka"
+    },
+    {
+      "id": 12,
+      "name": "Visoko"
+    },
+    {
+      "id": 13,
+      "name": "Prozor"
+    },
+    {
+      "id": 14,
+      "name": "Bijeljina"
+    },
+    {
+      "id": 15,
+      "name": "Bosanska Krupa"
+    },
+    {
+      "id": 16,
+      "name": "Bosanska Gradi�ka"
+    },
+    {
+      "id": 17,
+      "name": "Sanski Most"
+    },
+    {
+      "id": 18,
+      "name": "Breza"
+    },
+    {
+      "id": 19,
+      "name": "Busova�a"
+    },
+    {
+      "id": 20,
+      "name": "Bu�im"
+    },
+    {
+      "id": 21,
+      "name": "�apljina"
+    },
+    {
+      "id": 22,
+      "name": "�itluk"
+    },
+    {
+      "id": 23,
+      "name": "Doboj"
+    },
+    {
+      "id": 24,
+      "name": "Fo�a"
+    },
+    {
+      "id": 25,
+      "name": "Fojnica"
+    },
+    {
+      "id": 26,
+      "name": "Grada�ac"
+    },
+    {
+      "id": 27,
+      "name": "Gora�de"
+    },
+    {
+      "id": 28,
+      "name": "Jablanica"
+    },
+    {
+      "id": 29,
+      "name": "Kakanj"
+    },
+    {
+      "id": 30,
+      "name": "Kiseljak"
+    },
+    {
+      "id": 31,
+      "name": "Klju�"
+    },
+    {
+      "id": 32,
+      "name": "Konjic"
+    },
+    {
+      "id": 33,
+      "name": "Kre�evo"
+    },
+    {
+      "id": 34,
+      "name": "Livno"
+    },
+    {
+      "id": 35,
+      "name": "Lukavac"
+    },
+    {
+      "id": 36,
+      "name": "Ljubu�ki"
+    },
+    {
+      "id": 37,
+      "name": "Maglaj"
+    },
+    {
+      "id": 38,
+      "name": "Mrkonji� Grad"
+    },
+    {
+      "id": 39,
+      "name": "Novi Travnik"
+    },
+    {
+      "id": 40,
+      "name": "Neum"
+    },
+    {
+      "id": 41,
+      "name": "Olovo"
+    },
+    {
+      "id": 42,
+      "name": "Ora�je"
+    },
+    {
+      "id": 43,
+      "name": "Prijeor"
+    },
+    {
+      "id": 44,
+      "name": "Rogatica"
+    },
+    {
+      "id": 45,
+      "name": "Srebreica"
+    },
+    {
+      "id": 46,
+      "name": "Srebrenik"
+    },
+    {
+      "id": 47,
+      "name": "Stolac"
+    },
+    {
+      "id": 48,
+      "name": "�ipovo"
+    },
+    {
+      "id": 49,
+      "name": "�iroki Brijeg"
+    },
+    {
+      "id": 50,
+      "name": "Te�anj"
+    },
+    {
+      "id": 51,
+      "name": "Tomislavgrad"
+    },
+    {
+      "id": 52,
+      "name": "Tuzla"
+    },
+    {
+      "id": 53,
+      "name": "Trebinje"
+    },
+    {
+      "id": 54,
+      "name": "Usora"
+    },
+    {
+      "id": 55,
+      "name": "Vare�"
+    },
+    {
+      "id": 56,
+      "name": "Velika Kladu�a"
+    },
+    {
+      "id": 57,
+      "name": "Vi�egrad"
+    },
+    {
+      "id": 58,
+      "name": "Vitez"
+    },
+    {
+      "id": 59,
+      "name": "Zavidovi�i"
+    },
+    {
+      "id": 60,
+      "name": "Zvornik"
+    },
+    {
+      "id": 61,
+      "name": "�ep�e"
+    },
+    {
+      "id": 62,
+      "name": "�ivinice"
+    }
+  ]
+}
