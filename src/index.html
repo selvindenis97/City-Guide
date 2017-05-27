@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>City-Guide</title>
     <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +12,8 @@
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEkJhum44mkazzZAvimdXtq3IsdX3W5qI"></script>
+
     <script src="systemjs.config.js"></script>
     <script>
       System.import('main.js').catch(function(err){ console.error(err); });
@@ -20,6 +21,37 @@
   </head>
 
   <body>
-    <my-app>Loading AppComponent content here ...</my-app>
+	<div>
+		<table cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<img id="bgimage" src="dizajn2.jpg" width="100%" height="100%"/>
+					<div id="welcometxt">
+						<p align="center">Welcome to the City Guide! Please enter the city.</p>
+					</div>
+					<div class="inField">
+					<form>
+					<center><input type="text" placeholder="ex. Sarajevo" id="search" action="" method="get"/>
+							<br><br><input type="submit" value="GO!"></center>
+					</form>
+					</div>
+				</td>
+			</tr>
+		</table>
+    </div>
+	<style>
+		body, html { margin:0; padding:0; height:100%; width:100% }
+		#bgimage {position:fixed; left:0; top:0; z-index:100%: width:100% }
+		#welcometxt {position:fixed; right:-260px; top:0; z-index:0; height:100%;
+						width: 100%; padding:250px; font-size:38
+						}
+		.inField {position:fixed; width:300px; height:250px; margin-top:300px}
+		.inField input[type="text"]{width:200px; height:30px;}
+		.inField input[type="submit"]{width:60px; height:25px;}
+		
+		form{position:absolute; left:600px; top:-300px display:inline-block; z-index:10}
+						
+	</style>
+	
   </body>
 </html>
