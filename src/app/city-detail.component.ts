@@ -6,13 +6,15 @@ import { Location }                 from '@angular/common';
 import { City } from './city';
 import { CityService } from './city.service';
 
+declare var google: any;
+
 @Component({
   selector: 'my-city-detail',
   templateUrl: './app/city-detail.component.html',
   styleUrls: [ './app/city-detail.component.css' ]
 })
 
-export class CityDetailComponent implements OnInit {
+export class CityDetailComponent implements OnInit , AfterViewChecked{ {
 	@Input()
 	city: City;
 
@@ -27,6 +29,11 @@ ngOnInit(): void {
     .switchMap((params: Params) => this.cityService.getCity(+params['id']))
     .subscribe(city => this.city = city);
 	}
+   
+   ngAfterViewChecked(): void {
+	if(document.getElementById('map')!=null && this.map==null)
+		this.initMap();
+}
 
 goBack(): void {
   this.location.back();
@@ -34,6 +41,18 @@ goBack(): void {
 
 save(): void {
 }
+   
+private map:any=null;
+initMap(): void {
+        this.map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: new google.maps.LatLng(this.city.lat,this.city.lng)
+        });
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(this.city.lat,this.city.lng),
+          map: this.map
+        });
 
+}
 
 }
