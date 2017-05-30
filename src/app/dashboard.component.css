@@ -1,4 +1,4 @@
-[class*='col-'] {
+/*[class*='col-'] {
   float: left;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -58,4 +58,60 @@ h4 {
   .module {
     min-width: 60px;
   }
-}
+}*/
+body,html { background-image: url(pls3.jpg);
+			background-size: cover;
+		}
+		
+		.inField {	
+					width:300px;
+					height:90px;
+					background-color:rgba(0,0,0,0.2);
+					margin-top:350px;
+					margin-left:563px;
+					padding-top:15px;
+					padding-right:10px;
+					padding-left:10px;
+					-webkit-border-radius:15px;
+					-o-border-radius:15px;
+					-moz-border-radius:15px;
+					color:white;
+					font-weight:bolonder
+		}
+		.inField h2 {position:fixed;
+					right:-330px;
+					top:0; 
+					z-index:0; 
+					height:100%;
+					width: 100%; 
+					padding:300px; 
+					font-size:15px;
+					
+						}
+		.inField input[id="search"]{
+					position:fixed;
+					width:250px; 
+					height:20px;
+					padding-top:8px;
+					margin-right:0px;
+					
+					
+					}
+		.inField  button[type="button"] {
+					position:fixed;
+					width:100px; 
+					height:35px;
+					margin-left:60px;
+					border:10;
+					background-color:skyblue;
+					border-radius:10px;
+					-webkit-border-radius:5px;
+					-o-border-radius:5px;
+					-moz-border-radius:5px;
+					
+					
+					}
+		
+		/*form{position:absolute; left:600px; top:400; display:inline-block; z-index:10;}*/
+						
+
