@@ -76,9 +76,9 @@ body,html { background-image: url(pls3.jpg);
 					-o-border-radius:15px;
 					-moz-border-radius:15px;
 					color:white;
-					font-weight:bolonder
+					font-weight:bolonder;
 		}
-		.inField h2 {position:fixed;
+		.inField h2 {position:absolute;
 					right:-330px;
 					top:0; 
 					z-index:0; 
