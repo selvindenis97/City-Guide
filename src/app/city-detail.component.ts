@@ -1,5 +1,5 @@
 import 'rxjs/add/operator/switchMap';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, AfterViewChecked } from '@angular/core';
 import { ActivatedRoute, Params }   from '@angular/router';
 import { Location }                 from '@angular/common';
 
@@ -14,7 +14,7 @@ declare var google: any;
   styleUrls: [ './app/city-detail.component.css' ]
 })
 
-export class CityDetailComponent implements OnInit , AfterViewChecked{ {
+export class CityDetailComponent implements OnInit , AfterViewChecked{
 	@Input()
 	city: City;
 
@@ -22,15 +22,17 @@ export class CityDetailComponent implements OnInit , AfterViewChecked{ {
   private cityService: CityService,
   private route: ActivatedRoute,
   private location: Location
-) {}
+) {
+
+}
 
 ngOnInit(): void {
   this.route.params
     .switchMap((params: Params) => this.cityService.getCity(+params['id']))
-    .subscribe(city => this.city = city);
+    .subscribe(city => {this.city = city;});
 	}
-   
-   ngAfterViewChecked(): void {
+	
+ngAfterViewChecked(): void {
 	if(document.getElementById('map')!=null && this.map==null)
 		this.initMap();
 }
@@ -41,7 +43,7 @@ goBack(): void {
 
 save(): void {
 }
-   
+
 private map:any=null;
 initMap(): void {
         this.map = new google.maps.Map(document.getElementById('map'), {
@@ -54,5 +56,4 @@ initMap(): void {
         });
 
 }
-
 }
