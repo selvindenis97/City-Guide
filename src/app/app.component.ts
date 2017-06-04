@@ -11,9 +11,6 @@ import {OnInit} from '@angular/core';
   styleUrls: ['./app/app.component.css'],
   template: `
 
-!--ovdje ispod mozete upravljati direkciju slanja podataka tim buttonima, ja sam zakomentirala ova prethodna
-dva jer njih nemamo, ovaj treci je onaj koji sam ja sad napravila.
-	
   
     <!--h1 id="welcometxt">Welcome to the City-Guide!</h1-->
     <nav>
