@@ -1,0 +1,12 @@
+export class City {
+  id: number;
+  name: string;
+<<<<<<< HEAD
+  lat: number;
+  lng: number;
+}
+=======
+  lat:number;
+  lng:number;
+}
+>>>>>>> dc3dbfd466503a59acf77a3a1b903387cab52f42
