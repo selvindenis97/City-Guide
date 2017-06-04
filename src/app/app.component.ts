@@ -10,13 +10,17 @@ import {OnInit} from '@angular/core';
   selector: 'my-app',
   styleUrls: ['./app/app.component.css'],
   template: `
-    <h1>{{title}}</h1>
+
+	
   
-    <h1 id="welcomeMessage">Welcome to the City-Guide!</h1>
+    <!--h1 id="welcometxt">Welcome to the City-Guide!</h1-->
     <nav>
-      <a id="ChoiceDash" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-      <a id="ChoiceCity" routerLink="/cities" routerLinkActive="active">Cities</a>
+      <!--a id="ChoiceDash" routerLink="/dashboard" routerLinkActive="active">Dashboard</a-->
+      <!--a id="ChoiceCity" routerLink="/cities" routerLinkActive="active">Cities</a-->
+	  <!--a id="detailButton" routerLink="/city-detail.component" routerLinkActive="active">Details</a-->
     </nav>
+	
+	
     <router-outlet></router-outlet>
 
   `
