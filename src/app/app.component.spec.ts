@@ -24,5 +24,4 @@ describe('AppComponent', function () {
 
   it('should create component', () => expect(comp).toBeDefined() );
 
-  
 });
