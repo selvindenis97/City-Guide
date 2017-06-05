@@ -30,3 +30,4 @@ export class CitiesComponent implements OnInit {
     this.router.navigate(['/detail', this.selectedCity.id]);
   }
 }
+

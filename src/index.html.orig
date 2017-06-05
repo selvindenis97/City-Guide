@@ -20,15 +20,13 @@
     </script>
   </head>
 
-
+<<<<<<< HEAD
+  <body>
 	<my-app>...</my-app>
 	
-=======
-    <my-app>Loading AppComponent content here ...</my-app>
-	
-
-
   </body>
   
   
+=======
+>>>>>>> dc3dbfd466503a59acf77a3a1b903387cab52f42
 </html>

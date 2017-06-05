@@ -24,4 +24,9 @@ describe('AppComponent', function () {
 
   it('should create component', () => expect(comp).toBeDefined() );
 
+<<<<<<< HEAD
+  
+=======
+ 
+>>>>>>> dc3dbfd466503a59acf77a3a1b903387cab52f42
 });

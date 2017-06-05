@@ -51,21 +51,15 @@ describe('test for inner connections', function () {
   });
 
   it('clicking on Cities jumps to cities page', function () {
-    element(by.id('ChoiceCity')).click();
+    element(by.value('GO!')).click();
     expect(browser.getCurrentUrl()).toContain('cities');
   });
 
-  it('testing inner connections', function () {
-    element(by.buttonText('SMJESTAJ')).click();
-    expect(browser.getCurrentUrl()).toContain('smjestaji');
-  });
 
   it('testing inner connections', function () {
-    element(by.model('city.name')).sendKeys("Sarajevo");
-    element(by.buttonText('DETALJI')).click();
-    element(by.buttonText('Znamenitosti'))
-    expect(browser.getCurrentUrl()).toContain('sarajevo/znamenitosti');
+    element(by.id('search')).sendKeys("Sarajevo");
+    element(by.buttonText('GO!')).click();
+    expect(browser.getCurrentUrl()).toContain('sarajevo/details');
   });
 
 });
-
