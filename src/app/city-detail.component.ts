@@ -44,6 +44,7 @@ goBack(): void {
 save(): void {
 }
 
+
 private map:any=null;
 initMap(): void {
         this.map = new google.maps.Map(document.getElementById('map'), {
