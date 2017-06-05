@@ -12,4 +12,4 @@ Requirements:
 •	When particular city is entered for search, user is available to see its characteristics, places, history, hotels, pictures and more
 •	User is also available to see some other cities which are recommended 
 
-added collaborators
+added collaborators selvindenis97
